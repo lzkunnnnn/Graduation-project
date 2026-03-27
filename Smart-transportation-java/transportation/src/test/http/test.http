@@ -1,0 +1,7 @@
+POST localhost:8080/api/event/handleEvent
+Content-Type: application/json
+
+{
+  "id": 1,
+  "state": 0
+}

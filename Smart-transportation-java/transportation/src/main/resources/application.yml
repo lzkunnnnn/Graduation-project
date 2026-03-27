@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/transport
+    username: root
+    password: 1234
+    hikari:
+      maximum-pool-size: 10
+logging:
+  level:
+    sql: debug
+    org:
+      example: debug
+  pattern:
+    console: '%-5level - %msg%n'
